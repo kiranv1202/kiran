@@ -1,10 +1,11 @@
 package com.info.model;
 
 public class TaxiZone {
+	
 	private int locationId;
 	private String borough;
 	private String zone;
-	private String serviceZone;
+	private String service_zone;
 	
 	public TaxiZone() {
 	}
@@ -33,20 +34,18 @@ public class TaxiZone {
 		this.zone = zone;
 	}
 
-	public String getServiceZone() {
-		return serviceZone;
+	public String getService_zone() {
+		return service_zone;
 	}
 
-	public void setServiceZone(String serviceZone) {
-		this.serviceZone = serviceZone;
+	public void setService_zone(String service_zone) {
+		this.service_zone = service_zone;
 	}
 
 	@Override
 	public String toString() {
-		return "TaxiZone [locationId=" + locationId + ", borough=" + borough + ", zone=" + zone + ", serviceZone="
-				+ serviceZone + "]";
+		return "TaxiZone [locationId=" + locationId + ", borough=" + borough + ", zone=" + zone + ", service_zone="
+				+ service_zone + "]";
 	}
 	
-	
-
 }
