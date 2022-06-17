@@ -1,0 +1,6 @@
+com\info\types\DeliveryAddress.class
+com\info\serde\JsonSerializer.class
+com\info\types\Invoice.class
+com\info\serde\JsonDeserializer.class
+com\info\types\PosInvoice.class
+com\info\types\LineItem.class
